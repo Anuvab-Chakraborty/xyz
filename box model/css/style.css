@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    border: 1px dotted black;
+    padding:1rem;
+    margin:2rem;
+}
+
+.circle{
+    margin: 0.25rem auto;
+    height: 30px;
+    width: 30px;
+    padding: 1rem;
+    outline: 2px solid green ;
+    outline-offset: -10px;
+    background-color: gold;
+    border-radius: 70%;
+}

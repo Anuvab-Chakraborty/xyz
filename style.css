@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    background-color: black;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav ul li a{
+    font-size: 2rem;
+    margin: 0 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover,li a:focus{
+    text-decoration: underline;
+}
+
+.heading{
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+    color: red;
+}
+
+.container{
+    display: flex;
+}
+
+.article_main{
+    flex: 0.6;
+}
+.main_ul{
+    flex:0.4;
+    border: 2px solid red;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 650px;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+.main_ul ul{
+    list-style: none;
+}
+
+.main_ul ul li{
+    border-top: 2px solid blue;
+    text-align: center;
+}
+
+.main_ul ul li a{
+    display: block;
+    text-decoration: none;
+}
+
+.main_ul ul li a, .main_ul ul li a:visited{
+    color: green;
+}
+
+.main_ul ul li a:hover, .main_ul ul li a:focus{
+    background-color: skyblue;
+    color:gold;
+    cursor: pointer;
+}
+
+
+.main_ul ul li:first-child{
+    border-radius: 2rem 2rem 0 0;
+}
+
+.main_ul ul li:first-child a{
+    border-radius: 2rem 2rem 0 0;
+}
+
+.main_ul ul li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
